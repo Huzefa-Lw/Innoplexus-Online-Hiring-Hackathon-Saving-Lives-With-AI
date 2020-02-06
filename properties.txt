@@ -1,0 +1,23 @@
+trainFile = /Users/hu20018391/Practice/Innoplexus/stanford_train.txt
+serializeTo = /Users/hu20018391/Practice/Innoplexus/ner-model.ser.gz
+map = word=0,answer=1
+
+useClassFeature=true
+useWord=true
+useNGrams=true
+noMidNGrams=true
+maxNGramLeng=6
+usePrev=true
+useNext=true
+useSequences=true
+usePrevSequences=true
+maxLeft=1
+useTypeSeqs=true
+useTypeSeqs2=true
+useTypeySequences=true
+wordShape=chris2useLC
+useDisjunctive=true
+saveFeatureIndexToDisk=true
+qnSize=25
+maxQNItr=200
+tolerance=0.0005
